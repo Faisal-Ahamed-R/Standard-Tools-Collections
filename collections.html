@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standard Tools</title>
+    <link rel="icon" href=icon.png>
+    <link rel="stylesheet" href=style.css>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Linking Font Awesome icon package -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- Navbar with media query -->
+    <div class="navbar">
+        <h3>Standard Tools</h3>
+        <div class="navbarLinks">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="">Services</a></p>
+            <p><a href="">Discounts and Price</a></p>
+            <p><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-icon">
+            <i class="fa-solid fa-bars" onclick="sidenav()"></i>
+        </div>
+    </div>
+    <div class="side-navbar" id="side-navbar">
+        <p style="text-align:right; padding: 5px;"> <i class="fa-solid fa-xmark" onclick="sidenavClosing()"></i></p>
+        <p><a href="">Collections</a></p>
+        <p><a href="">Services</a></p>
+        <p><a href="">Discounts and Price</a></p>
+        <p><a href="">Contact</a></p>
+
+    </div>
+    <div class="collection">
+            <form class="search" id="search">
+                <input type="text" id="searchbar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+            </form>
+            <div class="product_source" id="product_source">
+                <div class="product_one">
+                    <img src="dewalt.jpg" width="250px"  alt="Dewalt">
+                    <h3>Dewalt</h3>
+                </div>
+                <div class="product_one">
+                    <img src="stanley.png" width="250px" alt="Stanley">
+                    <h3>Stanley</h3>
+                </div>
+                <div class="product_one">
+                    <img src="makita-tools.jpg" width="250px" alt="Makita">
+                    <h3>Makita</h3>
+                </div>
+                <div class="product_one">
+                    <img src="dongcheng.jpg" width="250px" alt="Doncheng">
+                    <h3>Doncheng</h3>
+                </div>
+            </div>
+            
+          
+    </div>
+
+<!-- Footer -->
+
+    <div class="footer">
+        <div class="footer-container">
+            <h3>Standard Tools</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis id sed libero possimus quam
+                asperiores dolor vero similique impedit iste.
+            </p>
+            <div class="icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <p style="text-align:center">@2024 Standard Tools</p>
+        </div>
+
+    </div>
+    <script src="collection.js"></script>
+</body>
+
+</html>
